@@ -1,5 +1,10 @@
+/* Import Packages */
 import { NextPage } from 'next';
+
+/* Import Components */
 import Layout from '../Components/Layout'
+
+/* Import Styles */
 import "../Styles/global.css"
 
 type MyAppProps = {

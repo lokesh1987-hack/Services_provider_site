@@ -1,6 +1,11 @@
+/* Import Packages */
 import { ReactNode } from 'react'
+
+/* Import Components */
 import Footer from './Footer'
 import Navbar from './NavBar'
+
+/* Import Styles */
 import Style from '../Styles/Layout.module.scss'
 
 type LayoutProps = {

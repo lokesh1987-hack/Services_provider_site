@@ -1,6 +1,8 @@
+/* Import Packages */
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+
+/* Import Data */
 import { FOOTER_DATA, SOCIAL_MEDIA } from '../DEMO_DATA/Data'
 
 function Footer() {

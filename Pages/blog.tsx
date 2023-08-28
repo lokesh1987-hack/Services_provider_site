@@ -1,5 +1,10 @@
+/* Import Packages */
 import Image from "next/image"
+
+/* Import Components */
 import Contact from "../Components/Contact"
+
+/* Import Data */
 import { BLOG_DATA } from "../DEMO_DATA/Data"
 
 

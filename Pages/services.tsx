@@ -1,6 +1,11 @@
+/* Import Packages */
 import Image from 'next/image'
 import Link from 'next/link'
+
+/* Import Components */
 import LandingBanner from '../Components/HomePage/LandingServicesBanner'
+
+/* Import Data */
 import { SERVICES_DATA } from '../DEMO_DATA/Data'
 
 
@@ -30,7 +35,7 @@ function services() {
 
                                 {/* Image with Description  */}
                                 <div className='lg:col-span-3 md:col-span-2'>
-                                    <Image src={image_url} width={1100} height={1000} style={{ width: "auto", height: "auto" }} alt='check Network' />
+                                    <Image src={image_url} width={1200} height={1100} style={{ width: "auto", height: "auto" }} alt='check Network' />
                                     <p className=' lg:text-4xl my-8'>{heading}</p>
                                     <div className='lg:mr-12 mt-5  '>
                                         {approches.map(({ id, name, desc }) => {

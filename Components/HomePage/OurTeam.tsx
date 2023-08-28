@@ -1,4 +1,7 @@
+/* Import Packages */
 import Image from "next/image"
+
+/* Import Data */
 import { TEAM_DATA } from '../../DEMO_DATA/Data'
 
 function OurTeam() {

@@ -1,4 +1,7 @@
+/* Import Packaegs */
 import Image from "next/image"
+
+/* Import Data */
 import { WORK_DATA } from "../../DEMO_DATA/Data"
 
 function OurWorks() {

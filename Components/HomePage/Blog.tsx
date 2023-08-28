@@ -1,4 +1,7 @@
+/* Import Pakages */
 import Image from "next/image"
+
+/* Import Data */
 import { BLOG_DATA } from "../../DEMO_DATA/Data"
 
 function Blog() {

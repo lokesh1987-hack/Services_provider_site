@@ -1,6 +1,11 @@
+/* Import Packages */
 import Image from 'next/image'
+
+/* Import Components */
 import LandingBanner from '../Components/HomePage/LandingServicesBanner'
 import Contact from '../Components/Contact'
+
+/* Import Data */
 import { WORK_DATA } from '../DEMO_DATA/Data'
 
 function Work() {
